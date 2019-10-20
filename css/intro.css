@@ -16,7 +16,7 @@ body{
 #image-div
 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 #open-div
 {
@@ -30,7 +30,13 @@ body{
 }
 #logo {
     height: 80pt;
-    position:relative;
+}
+
+  #name-div{
+      color: #31f213;
+      font-size: 1.5vw;
+      padding-top: 4.5%;
+      position:relative;
     -webkit-animation:linear infinite alternate;
     -webkit-animation-name: run;
     -webkit-animation-duration: 10s;
